@@ -4,10 +4,8 @@
   "description": "YP Sprint 12 project",
   "main": "app.js",
   "scripts": {
-    "build": "rimraf dist && webpack --mode production",
-    "dev": "webpack-dev-server --mode development --open --watch",
-    "deploy": "gh-pages -d dist",
-    "start": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "app.js"
   },
   "repository": {
     "type": "git",
@@ -41,7 +39,7 @@
     "postcss-loader": "^3.0.0",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.0",
+    "webpack-dev-server": "^3.8.1",
     "webpack-md5-hash": "0.0.6"
   },
   "dependencies": {
