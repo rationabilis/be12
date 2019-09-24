@@ -1,0 +1,8 @@
+@import url(./__hidden/__hidden.css);
+
+.error-message {
+    color: #FF3333;
+    font-size: 0.8em;
+    padding: 0px;
+    opacity: 1;
+  }

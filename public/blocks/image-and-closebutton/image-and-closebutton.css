@@ -1,0 +1,7 @@
+.image-and-closebutton {
+    display: grid;
+    grid-template-columns: auto 26px;
+    grid-template-rows: 26px auto; 
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
