@@ -3,7 +3,7 @@ const users = require('../data/users.json');
 
 usersRouter.get('/users/:id', (req, res) => {
     if (!users[req.params.id]) {
-        res.send(`Нет пользователя с таким id`);
+        res.status(404).send({ "message": "Нет пользователя с таким id" });
         return;
     }
 
@@ -12,7 +12,7 @@ usersRouter.get('/users/:id', (req, res) => {
       return;
     }
 
-    res.send('../data/users.json');
+    res.send(users);
 });
 
 module.exports = usersRouter;
