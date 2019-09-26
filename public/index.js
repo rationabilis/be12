@@ -1,7 +1,7 @@
 "use strict";
 
 /* import praktikantInfo from './jscripts/praktikantInfo'; */
-import './style.css';
+
 import Popup from './jscripts/popup';
 import validateData from './jscripts/validateData';
 import validateInput from './jscripts/validateInput';
