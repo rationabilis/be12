@@ -11,7 +11,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/cards', cardsRouter);
 app.use('/users', usersRouter);
-
 app.use('/*', wrongRouter);
 
 
